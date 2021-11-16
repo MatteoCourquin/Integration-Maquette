@@ -1,0 +1,34 @@
+.about-aside{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    div{
+        padding: 50px;
+        cursor: pointer;
+        &:hover{
+            background: $bg-linear;
+            span{
+                font-size: 4rem;
+                margin-bottom: 10px;
+                position: relative;
+                color: $white;
+                opacity: 1;
+            }
+        }
+    }
+    span{
+    background: $bg-linear;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 7rem;
+    font-family: $secondFont;
+    font-weight: bold;
+    opacity: 0.3;
+    position: absolute;
+    }
+    p{
+        margin-top: 30px;
+        width: 300px;
+    }
+}

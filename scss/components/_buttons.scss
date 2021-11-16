@@ -1,0 +1,13 @@
+.button-linear{
+    background: $bg-linear;
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+
+.button-rounded{
+    border: 2px solid $white;
+    border-radius: 999px;
+    padding: 10px 30px;
+    background: transparent;
+    font-size: 1rem;
+}
